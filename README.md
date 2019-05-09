@@ -3,10 +3,10 @@
 2. install Docker https://docs.docker.com/v17.12/docker-for-mac/install/
 
 3.Set Wordpress, MySQL, PHPMyAdmin.
-```$ docker-compose up -d```
+```$ sudo docker-compose up -d```
 
 To tear down
-```$ docker-compose down --volumes ```
+```$ sudo docker-compose down --volumes ```
 
 3.Enter to PHPMyAdmin (info on *docker-compose.yamle), delete this two files in the "wordpress" database
 *wp_postmeta.sql
